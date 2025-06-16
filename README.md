@@ -62,3 +62,21 @@
 Οι απαραίτητες βιβλιοθήκες μπορούν να εγκατασταθούν μέσω του package manager `pip`:
 ```bash
 pip install pandas numpy matplotlib seaborn jupyter notebook scikit-learn xgboost torch librosa parselmouth-praat opensmile networkx graphviz
+
+---
+
+### R (>4.0)
+Για την εκτέλεση του R script, απαιτείται η εγκατάσταση του περιβάλλοντος της R.
+
+**Βήμα 1: Εγκατάσταση της R**
+Μπορείτε να κατεβάσετε την R για το λειτουργικό σας σύστημα (Windows, macOS, Linux) από τον επίσημο ιστότοπο του R Project:
+> [https://www.r-project.org/](https://www.r-project.org/)
+
+**Βήμα 2: Εγκατάσταση του RStudio (Συνιστάται)**
+Για μια ευκολότερη διαχείριση του κώδικα και των πακέτων, συνιστάται η εγκατάσταση του RStudio Desktop, του πιο δημοφιλούς IDE για την R:
+> [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
+
+**Βήμα 3: Εγκατάσταση Πακέτων**
+Αφού εγκαταστήσετε την R (και το RStudio), ανοίξτε την κονσόλα και εκτελέστε την παρακάτω εντολή για να εγκαταστήσετε τις απαραίτητες βιβλιοθήκες:
+```R
+install.packages(c("readxl", "dplyr", "lmerTest", "writexl"))
