@@ -26,7 +26,7 @@
 Περιέχει τον κώδικα R για τη στατιστική ανάλυση και την επιλογή των πιο σημαντικών χαρακτηριστικών.
 -   `LMM_and_LM_together.ipynb`: Jupyter Notebook με R κώδικα που εφαρμόζει **Γραμμικά Μοντέλα (LM)** και **Γραμμικά Μικτά Μοντέλα (LMM)**. Σκοπός του είναι να βρει ποια χαρακτηριστικά έχουν στατιστικά σημαντική σχέση με τις κλινικές μεταβλητές (p-value < 0.05). Τα αποτελέσματά του χρησιμοποιούνται ως είσοδος στο επόμενο στάδιο.
 
-### 📁 `3_Machine_Learning_Standard_Classifiers/`
+### 📁 `3_Standard_Classifiers/`
 Περιέχει τα Jupyter Notebooks για την κύρια διαδικασία μηχανικής μάθησης με κλασικούς ταξινομητές. Κάθε notebook εστιάζει σε μία κλινική μεταβλητή-στόχο.
 -   `H_Y_binary.ipynb`
 -   `Dyskinesia.ipynb`
@@ -35,7 +35,7 @@
 -   `UPDRS_III_dif_per.ipynb`
 -   **Λογική:** Κάθε script φορτώνει τα χαρακτηριστικά, τα φιλτράρει βάσει των p-values από το προηγούμενο βήμα, εκπαιδεύει 5 ταξινομητές (KNN, LR, RF, SVM, XGBoost) με τη μέθοδο LOSO, και αποθηκεύει τα αποτελέσματα (Accuracy, Precision, Recall, F1-Score) σε αρχείο Excel.
 
-### 📁 `4_Machine_Learning_SNN/`
+### 📁 `4_SNN/`
 Περιέχει τα Jupyter Notebooks για την πειραματική προσέγγιση με **Σιαμαία Νευρωνικά Δίκτυα (SNN)**.
 -   `SNN_Dyskinesia.ipynb`
 -   `SNN_Fluctuations_Herakleion.ipynb`
